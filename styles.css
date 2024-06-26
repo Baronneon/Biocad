@@ -23,7 +23,7 @@ body {
 .container {
     width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px, 0;
     background-image: url('src/background.png'); /* Добавить фоновое изображение */
     background-size: cover; /* Изображение будет покрывать весь контейнер */
     background-position: center; /* Центрировать изображение */
