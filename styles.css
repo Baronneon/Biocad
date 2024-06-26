@@ -122,6 +122,7 @@ h2 {
 footer {
     text-align: center;
     margin-top: 10%;
+    font-size: 1.5em;
 }
 
 .btn {
@@ -135,7 +136,6 @@ footer {
     text-align: center;
     border-radius: 0px;
     
-    font-size: 1.5em;
 }
 
 .ps {
