@@ -17,17 +17,19 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    letter-spacing: 0.045em; /* Изменить межбуквенное расстояние для всего текста на странице */
+    letter-spacing: 0.045em; 
 }
 
 .container {
     width: 800px;
+    min-width: 600px;
     margin: 0 auto;
-    padding: 20px;
-    background-image: url('src/background.png'); /* Добавить фоновое изображение */
-    background-size: cover; /* Изображение будет покрывать весь контейнер */
-    background-position: center; /* Центрировать изображение */
-    border-radius: 5%;
+    
+    padding: 5%;
+    background-image: url('src/background.png');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 0%;
 }
 
 header {
@@ -35,27 +37,48 @@ header {
 }
 
 .logo {
+    
     display: inline-block;
     max-height: 100px;
     margin-bottom: -10px;
+    
 }
 
 h1 {
-    font-size: 2em;
-    font-size: 45pt;
-    line-height: 53pt;
+    font-family: 'Biocad Display', sans-serif;
+    font-size: 3em;
+    line-height: 100%;
     color: #00d8ff;
-    letter-spacing: 0.03em; /* Изменить межбуквенное расстояние для заголовков h1 */
+    letter-spacing: 0.03em; 
 }
 
+
+
 .line {
-    width: 100%;
+    width: 60%;
     height: 2px;
-    background: linear-gradient(to right, transparent, #00d8ff, transparent);
+    background: linear-gradient(to right,#00d8ff, transparent);
     margin: 20px 0;
 }
 
+header p {
+    font-family: 'Biocad Regular', sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+}
 
+header p b{
+    font-family: 'Biocad Display', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.line-long {
+    width: 95%;
+    height: 2px;
+    background: linear-gradient(to right,#00d8ff, transparent);
+    margin: 20px 0;
+}
 
 h2 {
     padding-top: 3%;
@@ -63,9 +86,8 @@ h2 {
     color: #ffffff;
     font-weight: bold;
     position: relative;
-    letter-spacing: 0.08em; /* Изменить межбуквенное расстояние для заголовков h2 */
+    letter-spacing: 0.08em; 
 }
-
 
 .program {
     display: flex;
@@ -82,8 +104,8 @@ h2 {
     font-size: 1.2em;
     font-weight: bold;
     color: #ffffff;
-    letter-spacing: 0.05em; /* Изменить межбуквенное расстояние для времени события */
-    flex: 0 0 100px; /* Задает ширину колонки времени */
+    letter-spacing: 0.05em; 
+    flex: 0 0 100px; 
     text-align: left;
     
 }
@@ -98,24 +120,32 @@ h2 {
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10%;
 }
 
 .btn {
+    font-family: 'Biocad Display', sans-serif;
+    font-weight: 800;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #00d8ff;
     color: #100F22;
-    font-weight: bold;
     text-decoration: none;
+    text-align: center;
     border-radius: 0px;
     
-    letter-spacing: 0.1em; /* Изменить межбуквенное расстояние для кнопок */
+    font-size: 1.5em;
 }
 
 .ps {
+    font-family: 'Biocad Display', sans-serif;
     padding-top: 150px;
     text-align: left;
+    position: relative;
+    margin-bottom: -5%;
+    line-height: 50%;
+    font-size: 1em;
+
 }
 .btn:hover {
     background-color: #00b8cc;
