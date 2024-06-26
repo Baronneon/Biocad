@@ -48,7 +48,7 @@ h1 {
     font-size: 3em;
     line-height: 100%;
     color: #00d8ff;
-    letter-spacing: 0.03em; 
+    letter-spacing: 0.05em; 
 }
 
 
@@ -95,11 +95,12 @@ h2 {
 
 .event {
     display: flex;
-    
+    text-align: start;
 }
 
 .time {
-    padding-top: 20px;
+    display: flex;
+    padding-top: 2%;
     font-size: 1.2em;
     font-weight: bold;
     color: #ffffff;
@@ -111,12 +112,16 @@ h2 {
 
 .details {
     flex: 1;
+    
 }
 
 .details p strong {
+    
     color: #00d8ff;
     font-family: 'Biocad Display', sans-serif;
     font-size: 1.2em;
+    padding: 0;
+    
 }
 
 footer {
@@ -136,15 +141,14 @@ footer {
     text-decoration: none;
     text-align: center;
     border-radius: 0px;
-    
+    margin: auto;
 }
 
 .ps {
-    
+    margin-top: 10%;
     padding-top: 150px;
     text-align: left;
     position: relative;
-    margin-bottom: -5%;
     line-height: 50%;
     
 
