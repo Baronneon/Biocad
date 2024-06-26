@@ -116,9 +116,11 @@ h2 {
 .details p strong {
     color: #00d8ff;
     font-family: 'Biocad Display', sans-serif;
+    font-size: 1.2em;
 }
 
 footer {
+    font-family: 'Biocad Regular';
     text-align: center;
     margin-top: 10%;
     
@@ -134,17 +136,17 @@ footer {
     text-decoration: none;
     text-align: center;
     border-radius: 0px;
-    font-size: 1.5em;
+    
 }
 
 .ps {
-    font-family: 'Biocad Display', sans-serif;
+    
     padding-top: 150px;
     text-align: left;
     position: relative;
     margin-bottom: -5%;
     line-height: 50%;
-    font-size: 1em;
+    
 
 }
 .btn:hover {
